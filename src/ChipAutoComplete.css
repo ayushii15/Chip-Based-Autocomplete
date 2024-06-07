@@ -1,0 +1,105 @@
+.container {
+    max-width: 800px;
+    max-height: 100%;
+    margin: 90px auto;
+    padding: 0px 20px;
+    background-color: #f7f7f7;
+    border: 3px solid #ddd;
+    border-radius: 45px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+  .tags-input {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 7px 5px #d1d1d1;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #e8e5e5;
+    position: relative;
+  }
+  
+  .tag {
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .tag:hover {
+    background-color: rgb(213, 213, 213);
+  }
+  
+  .close-button {
+    font-size: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    color: #fff;
+  }
+  
+  .search-input {
+    flex: 1;
+    min-width: 150px;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 5px;
+    background-color: transparent;
+  }
+  
+  .search-input:focus {
+    outline: none;
+  }
+  
+  .suggestions-list {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding : 0;
+    width: auto;
+    max-height: 50%;
+    list-style-type: none;
+    margin-top: 5px;
+    z-index: 1;
+    overflow-y: auto;
+  }
+  .suggestions-list li {
+    position: relative;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    left : auto;
+  }
+  
+  .suggestions-list li:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .suggestions-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .highlight {
+    color: rgb(75, 100, 223);
+    background-color: transparent;
+    font-weight: bold;
+  }
+  
+  .highlighted {
+    background-color: #f0f0f0;
+  }
