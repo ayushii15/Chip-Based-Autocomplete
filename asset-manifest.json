@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Chip-Based-Autocomplete/static/css/main.b259e422.css",
+    "main.js": "/Chip-Based-Autocomplete/static/js/main.dc21db1e.js",
+    "static/js/453.ed3810f9.chunk.js": "/Chip-Based-Autocomplete/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Chip-Based-Autocomplete/index.html",
+    "main.b259e422.css.map": "/Chip-Based-Autocomplete/static/css/main.b259e422.css.map",
+    "main.dc21db1e.js.map": "/Chip-Based-Autocomplete/static/js/main.dc21db1e.js.map",
+    "453.ed3810f9.chunk.js.map": "/Chip-Based-Autocomplete/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b259e422.css",
+    "static/js/main.dc21db1e.js"
+  ]
+}
